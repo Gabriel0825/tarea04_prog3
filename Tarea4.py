@@ -21,11 +21,11 @@ SingUp= driver.find_element(By.XPATH, "//button[@type='button'][contains(.,'Sign
 
 # Historia de Usuario 2- Loguearse con usuario ya registrado
 
-"""logUser= driver.find_element(By.XPATH, "//a[contains(@id,'login2')]").click()
+logUser= driver.find_element(By.XPATH, "//a[contains(@id,'login2')]").click()
 time.sleep(1)
 logUserName= driver.find_element(By.XPATH, "//input[contains(@id,'loginusername')]").send_keys("20210055")
 logPassword= driver.find_element(By.XPATH, "//input[contains(@id,'loginpassword')]").send_keys("A*12345678")
-LogIn= driver.find_element(By.XPATH, "//button[@type='button'][contains(.,'Log in')]").click()"""
+LogIn= driver.find_element(By.XPATH, "//button[@type='button'][contains(.,'Log in')]").click()
 
 
 # Historia de Usuario 3- Añadir Producto a carrito
@@ -50,9 +50,9 @@ time.sleep(2)"""
 
 #Historia de Usuario 5- Reproducir video sobre la pagina
 
-aboutUS= driver.find_element(By.XPATH, "//a[@class='nav-link'][contains(.,'About us')]").click()
+"""aboutUS= driver.find_element(By.XPATH, "//a[@class='nav-link'][contains(.,'About us')]").click()
 time.sleep(1)
-playVideo= driver.find_element(By.XPATH, "//a[@class='nav-link'][contains(.,'About us')]").click()
+playVideo= driver.find_element(By.XPATH, "//a[@class='nav-link'][contains(.,'About us')]").click()"""
 
 #Tiempo de suspension de la pantalla (Segundos)
 time.sleep(20)
