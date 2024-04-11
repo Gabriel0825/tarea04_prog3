@@ -39,13 +39,21 @@ time.sleep(2)"""
 
 #Historia de Usuario 4- Enviar Mensaje a la tienda
 
-sendMessage= driver.find_element(By.XPATH, "//a[@class='nav-link'][contains(.,'Contact')]").click()
+"""sendMessage= driver.find_element(By.XPATH, "//a[@class='nav-link'][contains(.,'Contact')]").click()
 time.sleep(1)
 contactMail= driver.find_element(By.XPATH, "//input[contains(@id,'recipient-email')]").send_keys("20210055@itla.com")
 contactName= driver.find_element(By.XPATH, "//input[contains(@id,'recipient-name')]").send_keys("Jeremy Garcia")
 Message= driver.find_element(By.XPATH, "//textarea[contains(@id,'message-text')]").send_keys("Hola Itla!!!")
 btn_send= driver.find_element(By.XPATH, "//button[@type='button'][contains(.,'Send message')]").click()
-time.sleep(2)
+time.sleep(2)"""
+
+
+#Historia de Usuario 5- Reproducir video sobre la pagina
+
+aboutUS= driver.find_element(By.XPATH, "//a[@class='nav-link'][contains(.,'About us')]").click()
+time.sleep(1)
+playVideo= driver.find_element(By.XPATH, "//a[@class='nav-link'][contains(.,'About us')]").click()
+
 #Tiempo de suspension de la pantalla (Segundos)
 time.sleep(20)
 
